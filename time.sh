@@ -1,5 +1,4 @@
 #!/bin/bash
-PATH=/opt/someApp/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+PATH=/usr/bin:/usr/local/bin
 t=`date +"%T"`
-gtts-cli $t -l 'es' | mpg123 -
-
+gtts-cli $t -l 'en' | mpg123 -
