@@ -4,10 +4,10 @@
 
 Whiterose is a script that tells you the time out loud. It's inspired by the idea of Whiterose, the Mr. Robot character whose watch beeps every minute in order to manage time.
 
-> Mac OS has sort of this functionality, but I wanted this functionality on linux, hence the script.b
+> Mac OS has sort of this functionality, but I wanted this functionality on linux, hence the script.
 > - ali @ponentesincausa
 
-Dependencies:
+#### Dependencies:
 
 [GTTS](https://github.com/pndurette/gTTS)
 [mpg123](https://www.mpg123.de/download.shtml)
@@ -24,5 +24,5 @@ Crontab example, Whiterose style:
 
 Bash 4 [is not available for Mac OS](https://apple.stackexchange.com/a/197172). You can use [Oh my zsh](https://github.com/robbyrussell/oh-my-zsh) and modify your paths accordingly.
 
-
+**Special thanks to [@categulario](https://github.com/categulario/) for directing the Crontab part**
 
