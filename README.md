@@ -9,9 +9,9 @@ Whiterose is a script that tells you the time out loud. It's inspired by the ide
 
 #### Dependencies:
 
-[GTTS](https://github.com/pndurette/gTTS)
-[mpg123](https://www.mpg123.de/download.shtml)
-Bash version 4
+- [GTTS](https://github.com/pndurette/gTTS) for translating text to speech
+- [mpg123](https://www.mpg123.de/download.shtml) for mpg conversion
+- Bash version 4
 
 Put it in a crontab to taste and enjoy 🍺
 
@@ -23,6 +23,8 @@ Crontab example, Whiterose style:
 ### For mac users
 
 Bash 4 [is not available for Mac OS](https://apple.stackexchange.com/a/197172). You can use [Oh my zsh](https://github.com/robbyrussell/oh-my-zsh) and modify your paths accordingly.
+
+
 
 **Special thanks to [@categulario](https://github.com/categulario/) for directing the Crontab part**
 
